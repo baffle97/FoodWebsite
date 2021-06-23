@@ -120,7 +120,6 @@ a {
   text-align: center;
   margin: 18px 10px 40px;
   transition: 0.2s ease-in;
-  padding: 25px;
 }
 .cards .flex {
   flex-wrap: wrap;
@@ -149,6 +148,7 @@ a {
     flex-direction: column;
     justify-content: center;
   }
+
   .navbar {
     display: flex;
     max-width: 100%;

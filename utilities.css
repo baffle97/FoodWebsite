@@ -16,11 +16,17 @@
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 12px 14px;
 
-  padding: 20px;
+  padding: 25px;
   margin: 10px;
 }
 
 .cards {
   margin: 0 auto;
   overflow: auto;
+}
+
+@media (max-width: 1100px) {
+  .card {
+    padding: 15px;
+  }
 }
